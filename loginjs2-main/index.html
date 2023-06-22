@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/index.css">
+    <title>Trang chủ</title>
+</head>
+<body>
+    <header id="welcome_message">
+        <div class="logo">
+        <img src="/image/Logo-DH-Cong-nghiep-Ha-Noi.webp" alt="Logo">
+        <h1>Trang chủ</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#monitor-system">Giám sát hệ thống</a></li>
+            <li><a href="#bedroom">Phòng ngủ</a></li>
+            <li><a href="#living-room">Phòng khách</a></li>
+            <li><a href="#kitchen">Nhà bếp</a></li>
+          </ul>
+        </nav>
+        
+
+      </header>
+    
+      <div class="weather-container">
+        <div class="weather-box">
+          <h2>Thời tiết</h2>
+          <img src="/image/logo-thoitiet.jpg" alt="Thời tiết nắng">
+          <p id="weather-value">Nhiều mây</p>
+        </div>
+        <div class="realtime-box">
+          <h2>Thời gian</h2>
+          <img src="/image/logo-clock.webp" alt="thời gian thực">
+          <p id="time-value">19:00</p>
+        </div>
+        
+        <div class="temperature-box">
+          <h2>Nhiệt độ</h2>
+          <img src="/image/logo-temp.jpg" alt="Nhiệt độ">
+          <span class="value">23 <sup>o</sup>C</span>
+        </div>
+        <div class="humidity-box">
+          <h2>Độ ẩm</h2>
+          <img src="/image/logo-humid.png" alt="Độ ẩm">
+          <p id="humid-value">75%</p>
+        </div>
+        <div class="condition-box">
+          <h2>Tình trạng phòng</h2>
+          <img src="/image/logo-condition.jpg" alt="Nóng">
+          <p id="condition-value">Mát mẻ</p>
+        </div>
+      </div>
+      <div class="brightness-control">
+        <h2>Điều chỉnh độ sáng</h2>
+        <input type="range" min="0" max="100" value="50" class="slider" id="brightness-slider">
+        <div class="image-room">
+          <img src="/image/room-logo.jpg" alt="Phòng" class="room-image">
+          <img src="/image/living-room.jpg" alt="Phòng" class="room-image">
+        </div>
+  
+      
+      
+      
+    
+</body>
+<script src="/js/index.js"></script>
+</html>
